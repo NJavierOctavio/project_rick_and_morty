@@ -1,0 +1,38 @@
+.formContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url("C:\Users\javi1\OneDrive\Escritorio\Project Rick and Morty\rick_and_morty\public\fondo-card.jpg");
+    background-size: cover;
+    background-position:center;
+    width: auto;
+    border: 3px solid greenyellow;
+    border-radius: 6px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.formContainer:hover{
+    transform: scale(1.05);
+}
+
+.formTitulo{
+    font-family:cursive;
+    color: rgb(252, 47, 255);
+}
+.credentials{
+    font-family:cursive;
+    color: greenyellow; 
+}
+
+.button{
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    z-index: 2;
+    transform: scale(1.5);
+
+}
